@@ -1,19 +1,40 @@
-.title {
-  font-size: 24px;
-  font-family: 'Droid Serif', serif;
-  font-weight: bold;
-  padding-top: 20px;
-  text-align: center;
+var words = [
+ "bambi",
+ "nemo",
+ "mulan",
+ "woody",
+ "aladdin"
+];
+
+var word = words[
+ Math.floor(Math.random() * words.length)
+];
+
+var answerArray = [];
+for (var i = 0; i < word.length; i++) {
+  answerArray[i] = '_';
 }
 
-header {
-  width: 100%;
-  background-color: lightgray;
-  height: 40px;
+var remainingLetters = word.length;
+
+while (remainingLetters > 0 ) {
+  alert(answerArray.join(" "));
+  var guess = prompt("Guess a letter, or click cancel to stop playing.");
+    if (guess === null) {
+      break;
+    }
+    else if (guess.length !== 1) {
+      alert("please enter a single letter");
+    }
+    else {
+      for(var j = 0; j < word.length; j++) {
+        if (word[j] === guess) {
+          answerArray[j] = guess;
+          remainingLetters --;
+        }
+      }
+    }
 }
-header ul li {
-  list-style: none;
-  float: right;
-  padding: 10px;
-  font-weight: bold;
-}
+
+alert(answerArray.join(" "));
+alert("Good job! The answer was " + word);
