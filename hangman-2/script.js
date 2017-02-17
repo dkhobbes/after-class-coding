@@ -38,3 +38,5 @@ while (remainingLetters > 0 ) {
 
 alert(answerArray.join(" "));
 alert("Good job! The answer was " + word);
+
+// work on changing from alert to something on the DOM 
