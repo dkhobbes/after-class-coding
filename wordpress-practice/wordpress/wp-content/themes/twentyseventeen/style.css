@@ -72,7 +72,7 @@ section {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 	margin: 0.67em 0;
 }
 
@@ -137,7 +137,7 @@ dfn {
 
 mark {
 	background-color: #eee;
-	color: #222;
+	color: #289;
 }
 
 small {
