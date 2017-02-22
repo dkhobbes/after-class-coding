@@ -34,4 +34,4 @@ var AppComponent = function (_React$Component) {
 }(React.Component);
 
 ReactDOM.render(React.createElement(AppComponent, null), mountNode);
-//# sourceMappingURL=script.js.map
+//# sourceMappingURL=router.js.map
