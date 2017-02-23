@@ -8,7 +8,7 @@ var Route = ReactRouter.Route;
 var IndexRoute = ReactRouter.IndexRoute;
 
 var router = <Router history={BlogTest.hashHistory}>
-      <Route path="/" component={BlogTest.MainPage} />
+      <Route path="/" component={BlogTest.MainPageComponent} />
       <Route path="/Archive" component={BlogTest.Archive} />
       <Route path="/PostOne" component={BlogTest.BlogPostOne} />
       <Route path="/PostTwo" component={BlogTest.BlogPostTwo} />

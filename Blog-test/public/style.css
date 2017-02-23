@@ -45,7 +45,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-p {
-  color: red; }
+#eyebrow-nav {
+  height: 20px;
+  background-color: #000; }
+
+#main-nav {
+  padding: 30px;
+  background-color: #2F8; }
 
 /*# sourceMappingURL=style.css.map */
