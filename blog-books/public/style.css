@@ -48,16 +48,49 @@ table {
 #eyebrow-nav {
   height: 40px;
   max-width: 100%;
-  background-color: #000; }
+  background-color: #824542;
+  padding-right: 15px; }
 
 #main-nav {
   padding: 30px;
-  height: 20px;
+  height: 30px;
   max-width: 100%;
-  background-color: #2F8; }
+  background-color: #f0decb; }
+
+#logo {
+  height: 35px;
+  width: 35px;
+  margin: 0px 10px 0 10px;
+  border-radius: 25px;
+  float: left;
+  background-color: white;
+  border: 1px solid black; }
 
 #main-nav ul {
   float: left; }
+
+#main-nav li {
+  float: left;
+  color: black; }
+
+#home-pic {
+  background-image: url("images/book-blog-intro.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+#home-pic-title {
+  background-color: white;
+  padding: 10px;
+  height: 190px;
+  width: 80px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding-top: 120px; }
 
 section {
   height: 500px;
@@ -76,5 +109,15 @@ header ul li {
   float: right;
   color: white;
   padding: 10px; }
+
+footer {
+  margin-top: 25px;
+  background-color: #824542;
+  height: 40px;
+  max-width: 100%; }
+
+footer p {
+  padding: 10px 0 0 25px;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

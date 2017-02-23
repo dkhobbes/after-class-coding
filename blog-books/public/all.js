@@ -748,6 +748,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
+              React.createElement("div", { id: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -777,6 +778,15 @@ if (window.BlogTest === undefined) {
                   "Author Interviews"
                 )
               )
+            )
+          ),
+          React.createElement(
+            "div",
+            { id: "home-pic" },
+            React.createElement(
+              "div",
+              { id: "home-pic-title" },
+              "Book Blog"
             )
           ),
           React.createElement(
@@ -826,6 +836,15 @@ if (window.BlogTest === undefined) {
                 { to: '/PostFive' },
                 "five"
               )
+            )
+          ),
+          React.createElement(
+            "footer",
+            null,
+            React.createElement(
+              "p",
+              null,
+              "\xA9 copyright 2017 BOOK BLOG"
             )
           )
         );

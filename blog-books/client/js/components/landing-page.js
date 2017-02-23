@@ -15,6 +15,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
         </div>
         <div id="main-nav">
+          <div id="logo"></div>
           <ul>
             <li>New releases</li>
             <li>Popular</li>
@@ -24,6 +25,9 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
           </div>
         </header>
+        <div id="home-pic">
+          <div id="home-pic-title">Book Blog</div>
+        </div>
         <section>
           <div className="tabs"><ReactRouter.Link to={'/PostOne'}>one</ReactRouter.Link></div>
           <div className="tabs"><ReactRouter.Link to={'/PostTwo'}>two</ReactRouter.Link></div>
@@ -31,6 +35,9 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <div className="tabs"><ReactRouter.Link to={'/PostFour'}>four</ReactRouter.Link></div>
           <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
         </section>
+        <footer>
+          <p>© copyright 2017 BOOK BLOG</p>
+        </footer>
       </div>
     }
   }
