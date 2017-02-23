@@ -9,12 +9,12 @@ var IndexRoute = ReactRouter.IndexRoute;
 
 var router = <Router history={BlogTest.hashHistory}>
       <Route path="/" component={BlogTest.MainPageComponent} />
-      <Route path="/Archive" component={BlogTest.Archive} />
-      <Route path="/PostOne" component={BlogTest.BlogPostOne} />
-      <Route path="/PostTwo" component={BlogTest.BlogPostTwo} />
-      <Route path="/PostThree" component={BlogTest.BlogPostThree} />
-      <Route path="/PostFour" component={BlogTest.BlogPostFour} />
-      <Route path="/PostFive" component={BlogTest.BlogPostFive} />
+      <Route path="/Archive" component={BlogTest.ArchiveComponent} />
+      <Route path="/PostOne" component={BlogTest.BlogPostOneComponent} />
+      <Route path="/PostTwo" component={BlogTest.BlogPostTwoComponent} />
+      <Route path="/PostThree" component={BlogTest.BlogPostThreeComponent} />
+      <Route path="/PostFour" component={BlogTest.BlogPostFourComponent} />
+      <Route path="/PostFive" component={BlogTest.BlogPostFiveComponent} />
     </Router>;
 
 ReactDOM.render(router, mountNode);
