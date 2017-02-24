@@ -29,7 +29,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <div id="home-pic-title">Book Blog</div>
         </div>
 
-        <section>
+        <section id="spacing">
           <div id="intro-main">
           <h1>Welcome to the Book Review Blog</h1>
           <p>Read the from the recent blog posts on some of the most interesting stories, and characters out there.</p>
@@ -39,8 +39,8 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <h1>Blog Posts</h1>
         </div>
         <section>
-          <div className="tabs tabs-one tabs-img"><ReactRouter.Link to={'/PostOne'}>one</ReactRouter.Link></div>
-          <div className="tabs tabs-img"><ReactRouter.Link to={'/PostTwo'}>two</ReactRouter.Link></div>
+          <ReactRouter.Link to={'/PostOne'}><div className="tabs tabs-one tabs-img">one</div></ReactRouter.Link>
+          <ReactRouter.Link to={'/PostTwo'}><div className="tabs tabs-img">two</div></ReactRouter.Link>
           <div className="tabs-bottom tabs-one"></div>
           <div className="tabs-bottom"></div>
         </section>

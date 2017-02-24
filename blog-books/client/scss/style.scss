@@ -70,11 +70,11 @@ border: 1px solid black;
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 10px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 #intro-main p {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 #intro-main h1, p {
   text-align: center;
@@ -85,7 +85,10 @@ section {
   width: 100%;
   display: block;
   margin:0 auto;
+}
 
+#spacing {
+  height: 150px;
 }
 
 section div {

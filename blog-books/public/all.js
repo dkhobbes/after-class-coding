@@ -921,7 +921,7 @@ if (window.BlogTest === undefined) {
           ),
           React.createElement(
             "section",
-            null,
+            { id: "spacing" },
             React.createElement(
               "div",
               { id: "intro-main" },
@@ -950,20 +950,20 @@ if (window.BlogTest === undefined) {
             "section",
             null,
             React.createElement(
-              "div",
-              { className: "tabs tabs-one tabs-img" },
+              ReactRouter.Link,
+              { to: '/PostOne' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostOne' },
+                "div",
+                { className: "tabs tabs-one tabs-img" },
                 "one"
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs tabs-img" },
+              ReactRouter.Link,
+              { to: '/PostTwo' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostTwo' },
+                "div",
+                { className: "tabs tabs-img" },
                 "two"
               )
             ),
