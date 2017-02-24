@@ -59,7 +59,7 @@ border: 1px solid black;
 #intro-main{
   background-color: rgba(240, 222, 203, 1.0);
   border-radius: 25px;
-  width: 80%;
+  width: 78%;
   margin: 0 auto;
   display: block;
   border: none;
@@ -69,10 +69,13 @@ border: 1px solid black;
 #intro-main h1 {
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 30px;
-  padding-top: 60px;
+  padding-bottom: 10px;
+  padding-top: 30px;
 }
 
+#intro-main p {
+  padding-bottom: 30px;
+}
 #intro-main h1, p {
   text-align: center;
 }
@@ -86,12 +89,40 @@ section {
 }
 
 section div {
-  float: left;
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-  border: 1px solid black;
+  // float: left;
+  // width: 38%;
+  // margin-left: 10%;
+  // height: 200px;
+  // background-color: lightblue;
+  // border: 1px solid black;
  }
+
+.tabs {
+  float: left;
+  width: 38%;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 25px 25px 0 0;
+}
+
+.tabs-one {
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.tabs-img {
+  background-image: url('images/book-blog-intro.jpg');
+  background-size: cover;
+}
+
+// .tabs-bottom {
+//   float: left;
+//   width: 38%;
+//   height: 200px;
+//   border: 1px solid black;
+//   border-radius: 0 0 25px 25px;
+//   margin-bottom: 25px;
+// }
 
 header ul li {
   float: right;

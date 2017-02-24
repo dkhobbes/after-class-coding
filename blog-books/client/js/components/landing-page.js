@@ -39,16 +39,22 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <h1>Blog Posts</h1>
         </div>
         <section>
-          <div className="tabs"><ReactRouter.Link to={'/PostOne'}>one</ReactRouter.Link></div>
-          <div className="tabs"><ReactRouter.Link to={'/PostTwo'}>two</ReactRouter.Link></div>
+          <div className="tabs tabs-one tabs-img"><ReactRouter.Link to={'/PostOne'}>one</ReactRouter.Link></div>
+          <div className="tabs tabs-img"><ReactRouter.Link to={'/PostTwo'}>two</ReactRouter.Link></div>
+          <div className="tabs-bottom tabs-one"></div>
+          <div className="tabs-bottom"></div>
         </section>
         <section>
-          <div className="tabs"><ReactRouter.Link to={'/PostThree'}>three</ReactRouter.Link></div>
-          <div className="tabs"><ReactRouter.Link to={'/PostFour'}>four</ReactRouter.Link></div>
+          <div className="tabs tabs-one tabs-img"><ReactRouter.Link to={'/PostThree'}>three</ReactRouter.Link></div>
+          <div className="tabs tabs-img"><ReactRouter.Link to={'/PostFour'}>four</ReactRouter.Link></div>
+          <div className="tabs-bottom tabs-one"></div>
+          <div className="tabs-bottom"></div>
         </section>
         <section>
-          <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
-          <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
+          <div className="tabs tabs-one tabs-img"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
+          <div className="tabs tabs-img"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
+          <div className="tabs-bottom tabs-one"></div>
+          <div className="tabs-bottom"></div>
         </section>
         <div id="read-more-main">
           <h1>Read more coming soon ...</h1>

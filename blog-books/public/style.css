@@ -96,7 +96,7 @@ table {
 #intro-main {
   background-color: #f0decb;
   border-radius: 25px;
-  width: 80%;
+  width: 78%;
   margin: 0 auto;
   display: block;
   border: none;
@@ -105,8 +105,11 @@ table {
 #intro-main h1 {
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 30px;
-  padding-top: 60px; }
+  padding-bottom: 10px;
+  padding-top: 30px; }
+
+#intro-main p {
+  padding-bottom: 30px; }
 
 #intro-main h1, p {
   text-align: center; }
@@ -117,12 +120,20 @@ section {
   display: block;
   margin: 0 auto; }
 
-section div {
+.tabs {
   float: left;
-  width: 200px;
+  width: 38%;
   height: 200px;
-  background-color: lightblue;
-  border: 1px solid black; }
+  border: 1px solid black;
+  border-radius: 25px 25px 0 0; }
+
+.tabs-one {
+  margin-left: 10%;
+  margin-right: 2%; }
+
+.tabs-img {
+  background-image: url("images/book-blog-intro.jpg");
+  background-size: cover; }
 
 header ul li {
   float: right;

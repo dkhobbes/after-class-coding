@@ -951,7 +951,7 @@ if (window.BlogTest === undefined) {
             null,
             React.createElement(
               "div",
-              { className: "tabs" },
+              { className: "tabs tabs-one tabs-img" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostOne' },
@@ -960,20 +960,22 @@ if (window.BlogTest === undefined) {
             ),
             React.createElement(
               "div",
-              { className: "tabs" },
+              { className: "tabs tabs-img" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostTwo' },
                 "two"
               )
-            )
+            ),
+            React.createElement("div", { className: "tabs-bottom tabs-one" }),
+            React.createElement("div", { className: "tabs-bottom" })
           ),
           React.createElement(
             "section",
             null,
             React.createElement(
               "div",
-              { className: "tabs" },
+              { className: "tabs tabs-one tabs-img" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostThree' },
@@ -982,20 +984,22 @@ if (window.BlogTest === undefined) {
             ),
             React.createElement(
               "div",
-              { className: "tabs" },
+              { className: "tabs tabs-img" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostFour' },
                 "four"
               )
-            )
+            ),
+            React.createElement("div", { className: "tabs-bottom tabs-one" }),
+            React.createElement("div", { className: "tabs-bottom" })
           ),
           React.createElement(
             "section",
             null,
             React.createElement(
               "div",
-              { className: "tabs" },
+              { className: "tabs tabs-one tabs-img" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostFive' },
@@ -1004,13 +1008,15 @@ if (window.BlogTest === undefined) {
             ),
             React.createElement(
               "div",
-              { className: "tabs" },
+              { className: "tabs tabs-img" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostFive' },
                 "five"
               )
-            )
+            ),
+            React.createElement("div", { className: "tabs-bottom tabs-one" }),
+            React.createElement("div", { className: "tabs-bottom" })
           ),
           React.createElement(
             "div",
