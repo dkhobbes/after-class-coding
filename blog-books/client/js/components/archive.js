@@ -15,6 +15,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
         </div>
         <div id="main-nav">
+          <div id="logo"></div>
           <ul>
             <li>New releases</li>
             <li>Popular</li>

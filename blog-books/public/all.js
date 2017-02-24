@@ -51,6 +51,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
+              React.createElement("div", { id: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -202,6 +203,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
+              React.createElement("div", { id: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -240,6 +242,15 @@ if (window.BlogTest === undefined) {
               "div",
               null,
               "example post"
+            )
+          ),
+          React.createElement(
+            "footer",
+            null,
+            React.createElement(
+              "p",
+              null,
+              "\xA9 copyright 2017 BOOK BLOG"
             )
           )
         );
@@ -313,6 +324,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
+              React.createElement("div", { id: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -351,6 +363,15 @@ if (window.BlogTest === undefined) {
               "div",
               null,
               "example post"
+            )
+          ),
+          React.createElement(
+            "footer",
+            null,
+            React.createElement(
+              "p",
+              null,
+              "\xA9 copyright 2017 BOOK BLOG"
             )
           )
         );
@@ -424,6 +445,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
+              React.createElement("div", { id: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -462,6 +484,15 @@ if (window.BlogTest === undefined) {
               "div",
               null,
               "example post"
+            )
+          ),
+          React.createElement(
+            "footer",
+            null,
+            React.createElement(
+              "p",
+              null,
+              "\xA9 copyright 2017 BOOK BLOG"
             )
           )
         );
@@ -535,6 +566,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
+              React.createElement("div", { id: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -573,6 +605,15 @@ if (window.BlogTest === undefined) {
               "div",
               null,
               "example post"
+            )
+          ),
+          React.createElement(
+            "footer",
+            null,
+            React.createElement(
+              "p",
+              null,
+              "\xA9 copyright 2017 BOOK BLOG"
             )
           )
         );
@@ -646,6 +687,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
+              React.createElement("div", { id: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -684,6 +726,15 @@ if (window.BlogTest === undefined) {
               "div",
               null,
               "example post"
+            )
+          ),
+          React.createElement(
+            "footer",
+            null,
+            React.createElement(
+              "p",
+              null,
+              "\xA9 copyright 2017 BOOK BLOG"
             )
           )
         );
@@ -794,6 +845,24 @@ if (window.BlogTest === undefined) {
             null,
             React.createElement(
               "div",
+              { id: "intro-main" },
+              React.createElement(
+                "h1",
+                null,
+                "Welcome to the Book Review Blog"
+              ),
+              React.createElement(
+                "p",
+                null,
+                "Read the from the recent blog posts on some of the most interesting stories, and characters out there."
+              )
+            )
+          ),
+          React.createElement(
+            "section",
+            null,
+            React.createElement(
+              "div",
               { className: "tabs" },
               React.createElement(
                 ReactRouter.Link,
@@ -809,7 +878,11 @@ if (window.BlogTest === undefined) {
                 { to: '/PostTwo' },
                 "two"
               )
-            ),
+            )
+          ),
+          React.createElement(
+            "section",
+            null,
             React.createElement(
               "div",
               { className: "tabs" },
@@ -827,6 +900,19 @@ if (window.BlogTest === undefined) {
                 { to: '/PostFour' },
                 "four"
               )
+            )
+          ),
+          React.createElement(
+            "section",
+            null,
+            React.createElement(
+              "div",
+              { className: "tabs" },
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/PostFive' },
+                "five"
+              )
             ),
             React.createElement(
               "div",
@@ -837,6 +923,16 @@ if (window.BlogTest === undefined) {
                 "five"
               )
             )
+          ),
+          React.createElement(
+            "section",
+            null,
+            React.createElement("div", { id: "intro-main" })
+          ),
+          React.createElement(
+            "section",
+            null,
+            React.createElement("div", { id: "intro-main" })
           ),
           React.createElement(
             "footer",

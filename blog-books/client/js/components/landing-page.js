@@ -28,13 +28,38 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
         <div id="home-pic">
           <div id="home-pic-title">Book Blog</div>
         </div>
+
+        <section>
+          <div id="intro-main">
+          <h1>Welcome to the Book Review Blog</h1>
+          <p>Read the from the recent blog posts on some of the most interesting stories, and characters out there.</p>
+          </div>
+        </section>
         <section>
           <div className="tabs"><ReactRouter.Link to={'/PostOne'}>one</ReactRouter.Link></div>
           <div className="tabs"><ReactRouter.Link to={'/PostTwo'}>two</ReactRouter.Link></div>
+        </section>
+        <section>
           <div className="tabs"><ReactRouter.Link to={'/PostThree'}>three</ReactRouter.Link></div>
           <div className="tabs"><ReactRouter.Link to={'/PostFour'}>four</ReactRouter.Link></div>
+        </section>
+        <section>
+          <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
           <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
         </section>
+
+        <section>
+          <div id="intro-main">
+
+          </div>
+        </section>
+
+        <section>
+          <div id="intro-main">
+          
+          </div>
+        </section>
+
         <footer>
           <p>© copyright 2017 BOOK BLOG</p>
         </footer>

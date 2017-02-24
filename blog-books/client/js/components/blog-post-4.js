@@ -16,6 +16,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
         </ul>
       </div>
       <div id="main-nav">
+        <div id="logo"></div>
         <ul>
           <li>New releases</li>
           <li>Popular</li>
@@ -28,6 +29,9 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
       <section>
         <div>example post</div>
       </section>
+      <footer>
+        <p>© copyright 2017 BOOK BLOG</p>
+      </footer>
       </div>
     }
   }
