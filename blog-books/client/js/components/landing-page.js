@@ -35,6 +35,9 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <p>Read the from the recent blog posts on some of the most interesting stories, and characters out there.</p>
           </div>
         </section>
+        <div id="read-title-main">
+          <h1>Blog Posts</h1>
+        </div>
         <section>
           <div className="tabs"><ReactRouter.Link to={'/PostOne'}>one</ReactRouter.Link></div>
           <div className="tabs"><ReactRouter.Link to={'/PostTwo'}>two</ReactRouter.Link></div>
@@ -51,16 +54,14 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <h1>Read more coming soon ...</h1>
         </div>
 
-        <section>
           <div id="archive-main">
             <h1><ReactRouter.Link to={'/Archive'}>Archive</ReactRouter.Link></h1>
-            <ul>
+            <ul id="archive-main-list">
               <li>2017</li>
               <li>2016</li>
               <li>2015</li>
             </ul>
           </div>
-        </section>
 
         <div id="newsletter-main">
           <div>

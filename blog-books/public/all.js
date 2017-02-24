@@ -938,6 +938,15 @@ if (window.BlogTest === undefined) {
             )
           ),
           React.createElement(
+            "div",
+            { id: "read-title-main" },
+            React.createElement(
+              "h1",
+              null,
+              "Blog Posts"
+            )
+          ),
+          React.createElement(
             "section",
             null,
             React.createElement(
@@ -1013,38 +1022,34 @@ if (window.BlogTest === undefined) {
             )
           ),
           React.createElement(
-            "section",
-            null,
+            "div",
+            { id: "archive-main" },
             React.createElement(
-              "div",
-              { id: "archive-main" },
+              "h1",
+              null,
               React.createElement(
-                "h1",
+                ReactRouter.Link,
+                { to: '/Archive' },
+                "Archive"
+              )
+            ),
+            React.createElement(
+              "ul",
+              { id: "archive-main-list" },
+              React.createElement(
+                "li",
                 null,
-                React.createElement(
-                  ReactRouter.Link,
-                  { to: '/Archive' },
-                  "Archive"
-                )
+                "2017"
               ),
               React.createElement(
-                "ul",
+                "li",
                 null,
-                React.createElement(
-                  "li",
-                  null,
-                  "2017"
-                ),
-                React.createElement(
-                  "li",
-                  null,
-                  "2016"
-                ),
-                React.createElement(
-                  "li",
-                  null,
-                  "2015"
-                )
+                "2016"
+              ),
+              React.createElement(
+                "li",
+                null,
+                "2015"
               )
             )
           ),

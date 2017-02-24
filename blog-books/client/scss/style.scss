@@ -63,6 +63,18 @@ border: 1px solid black;
   margin: 0 auto;
   display: block;
   border: none;
+  margin-left: 10%;
+}
+
+#intro-main h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+
+#intro-main h1, p {
+  text-align: center;
 }
 
 section {
@@ -79,11 +91,7 @@ section div {
   height: 200px;
   background-color: lightblue;
   border: 1px solid black;
-}
-
-.tabs {
-
-}
+ }
 
 header ul li {
   float: right;
@@ -92,7 +100,6 @@ header ul li {
 }
 
 footer {
-  margin-top: 25px;
   background-color: rgba(130, 69, 66, 1.0);
   height: 40px;
   max-width: 100%;
@@ -106,12 +113,22 @@ footer p {
 #newsletter-main {
   width: 100%;
   height: 200px;
+  margin-top: 25px;
   background-color: rgba(240, 222, 203, 1.0);
 }
 
 #newsletter-main h1, input, button  {
   margin-top: 100px;
   float: left;
+  padding: 0 10px 0 10px;
+}
+
+#newsletter-main button {
+  margin-left: 10px;
+}
+
+#newsletter-main h1 {
+  margin-left: 38%;
 }
 
 #read-more-main {
@@ -123,10 +140,38 @@ footer p {
   background-color: rgba(240, 222, 203, 1.0);
   border-radius: 25px;
   width: 80%;
+  height: 100px;
   margin-top: 50px;
   border: none;
+  margin-left: 10%;
 }
 
-// #archive-main h1, ul {
-//   margin-top: 50px;
-// }
+#archive-main h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 38%;
+  padding-top: 30px;
+  font-size: 24px;
+  text-align: center;
+  float: left;
+}
+
+#archive-main-list {
+  // margin-left: 20px;
+  padding-top: 25px;
+
+}
+
+#archive-main-list li {
+  float: left;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#read-title-main {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
