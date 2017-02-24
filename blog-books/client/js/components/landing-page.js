@@ -38,34 +38,62 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
         <div id="read-title-main">
           <h1>Blog Posts</h1>
         </div>
+
         <section>
-          <ReactRouter.Link to={'/PostOne'}><div className="tabs tabs-one tabs-img">one</div></ReactRouter.Link>
-          <ReactRouter.Link to={'/PostTwo'}><div className="tabs tabs-img">two</div></ReactRouter.Link>
+          <ReactRouter.Link to={'/PostOne'}>
+            <div className="tabs tabs-one tabs-img">
+              <div className="blog-pic-title">one</div>
+            </div>
+          </ReactRouter.Link>
+          <ReactRouter.Link to={'/PostTwo'}>
+            <div className="tabs tabs-img">
+              <div className="blog-pic-title">two</div>
+            </div>
+          </ReactRouter.Link>
           <div className="tabs-bottom tabs-one"></div>
           <div className="tabs-bottom"></div>
         </section>
+
         <section>
-          <div className="tabs tabs-one tabs-img"><ReactRouter.Link to={'/PostThree'}>three</ReactRouter.Link></div>
-          <div className="tabs tabs-img"><ReactRouter.Link to={'/PostFour'}>four</ReactRouter.Link></div>
+          <ReactRouter.Link to={'/PostThree'}>
+            <div className="tabs tabs-one tabs-img">
+              <div className="blog-pic-title">three</div>
+            </div>
+          </ReactRouter.Link>
+          <ReactRouter.Link to={'/PostFour'}>
+            <div className="tabs tabs-img">
+              <div className="blog-pic-title">four</div>
+            </div>
+          </ReactRouter.Link>
           <div className="tabs-bottom tabs-one"></div>
           <div className="tabs-bottom"></div>
         </section>
+
         <section>
-          <div className="tabs tabs-one tabs-img"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
-          <div className="tabs tabs-img"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
+          <ReactRouter.Link to={'/PostFive'}>
+            <div className="tabs tabs-one tabs-img">
+              <div className="blog-pic-title">five</div>
+            </div>
+          </ReactRouter.Link>
+          <ReactRouter.Link to={'/PostFive'}>
+            <div className="tabs tabs-img">
+              <div className="blog-pic-title">six</div>
+            </div>
+          </ReactRouter.Link>
           <div className="tabs-bottom tabs-one"></div>
           <div className="tabs-bottom"></div>
         </section>
+        
         <div id="read-more-main">
           <h1>Read more coming soon ...</h1>
         </div>
 
           <div id="archive-main">
-            <h1><ReactRouter.Link to={'/Archive'}>Archive</ReactRouter.Link></h1>
+            <h1>Archive</h1>
             <ul id="archive-main-list">
-              <li>2017</li>
-              <li>2016</li>
-              <li>2015</li>
+              <ReactRouter.Link to={'/Archive'}><li>2017</li></ReactRouter.Link>
+              <ReactRouter.Link to={'/Archive'}><li>2016</li></ReactRouter.Link>
+              <ReactRouter.Link to={'/Archive'}><li>2015</li></ReactRouter.Link>
             </ul>
           </div>
 

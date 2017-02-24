@@ -955,7 +955,11 @@ if (window.BlogTest === undefined) {
               React.createElement(
                 "div",
                 { className: "tabs tabs-one tabs-img" },
-                "one"
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "one"
+                )
               )
             ),
             React.createElement(
@@ -964,7 +968,11 @@ if (window.BlogTest === undefined) {
               React.createElement(
                 "div",
                 { className: "tabs tabs-img" },
-                "two"
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "two"
+                )
               )
             ),
             React.createElement("div", { className: "tabs-bottom tabs-one" }),
@@ -974,21 +982,29 @@ if (window.BlogTest === undefined) {
             "section",
             null,
             React.createElement(
-              "div",
-              { className: "tabs tabs-one tabs-img" },
+              ReactRouter.Link,
+              { to: '/PostThree' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostThree' },
-                "three"
+                "div",
+                { className: "tabs tabs-one tabs-img" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "three"
+                )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs tabs-img" },
+              ReactRouter.Link,
+              { to: '/PostFour' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFour' },
-                "four"
+                "div",
+                { className: "tabs tabs-img" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "four"
+                )
               )
             ),
             React.createElement("div", { className: "tabs-bottom tabs-one" }),
@@ -998,21 +1014,29 @@ if (window.BlogTest === undefined) {
             "section",
             null,
             React.createElement(
-              "div",
-              { className: "tabs tabs-one tabs-img" },
+              ReactRouter.Link,
+              { to: '/PostFive' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFive' },
-                "five"
+                "div",
+                { className: "tabs tabs-one tabs-img" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "five"
+                )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs tabs-img" },
+              ReactRouter.Link,
+              { to: '/PostFive' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFive' },
-                "five"
+                "div",
+                { className: "tabs tabs-img" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "six"
+                )
               )
             ),
             React.createElement("div", { className: "tabs-bottom tabs-one" }),
@@ -1033,29 +1057,37 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "h1",
               null,
-              React.createElement(
-                ReactRouter.Link,
-                { to: '/Archive' },
-                "Archive"
-              )
+              "Archive"
             ),
             React.createElement(
               "ul",
               { id: "archive-main-list" },
               React.createElement(
-                "li",
-                null,
-                "2017"
+                ReactRouter.Link,
+                { to: '/Archive' },
+                React.createElement(
+                  "li",
+                  null,
+                  "2017"
+                )
               ),
               React.createElement(
-                "li",
-                null,
-                "2016"
+                ReactRouter.Link,
+                { to: '/Archive' },
+                React.createElement(
+                  "li",
+                  null,
+                  "2016"
+                )
               ),
               React.createElement(
-                "li",
-                null,
-                "2015"
+                ReactRouter.Link,
+                { to: '/Archive' },
+                React.createElement(
+                  "li",
+                  null,
+                  "2015"
+                )
               )
             )
           ),
