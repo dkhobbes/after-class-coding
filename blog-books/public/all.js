@@ -45,6 +45,15 @@ if (window.BlogTest === undefined) {
                   "li",
                   null,
                   "My books"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/' },
+                    "Home"
+                  )
                 )
               )
             ),
@@ -92,7 +101,7 @@ if (window.BlogTest === undefined) {
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostOne' },
-                "Post One"
+                "one"
               )
             ),
             React.createElement(
@@ -101,16 +110,20 @@ if (window.BlogTest === undefined) {
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostTwo' },
-                "Post Two"
+                "two"
               )
-            ),
+            )
+          ),
+          React.createElement(
+            "section",
+            null,
             React.createElement(
               "div",
               { className: "tabs" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostThree' },
-                "Post Three"
+                "three"
               )
             ),
             React.createElement(
@@ -119,7 +132,20 @@ if (window.BlogTest === undefined) {
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostFour' },
-                "Post Four"
+                "four"
+              )
+            )
+          ),
+          React.createElement(
+            "section",
+            null,
+            React.createElement(
+              "div",
+              { className: "tabs" },
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/PostFive' },
+                "five"
               )
             ),
             React.createElement(
@@ -128,8 +154,61 @@ if (window.BlogTest === undefined) {
               React.createElement(
                 ReactRouter.Link,
                 { to: '/PostFive' },
-                "Post Five"
+                "five"
               )
+            )
+          ),
+          React.createElement(
+            "section",
+            null,
+            React.createElement(
+              "div",
+              { className: "tabs" },
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/PostThree' },
+                "three"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "tabs" },
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/PostFour' },
+                "four"
+              )
+            )
+          ),
+          React.createElement(
+            "section",
+            null,
+            React.createElement(
+              "div",
+              { className: "tabs" },
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/PostFive' },
+                "five"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "tabs" },
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/PostFive' },
+                "five"
+              )
+            )
+          ),
+          React.createElement(
+            "footer",
+            null,
+            React.createElement(
+              "p",
+              null,
+              "\xA9 copyright 2017 BOOK BLOG"
             )
           )
         );
@@ -925,14 +1004,72 @@ if (window.BlogTest === undefined) {
             )
           ),
           React.createElement(
-            "section",
-            null,
-            React.createElement("div", { id: "intro-main" })
+            "div",
+            { id: "read-more-main" },
+            React.createElement(
+              "h1",
+              null,
+              "Read more coming soon ..."
+            )
           ),
           React.createElement(
             "section",
             null,
-            React.createElement("div", { id: "intro-main" })
+            React.createElement(
+              "div",
+              { id: "archive-main" },
+              React.createElement(
+                "h1",
+                null,
+                React.createElement(
+                  ReactRouter.Link,
+                  { to: '/Archive' },
+                  "Archive"
+                )
+              ),
+              React.createElement(
+                "ul",
+                null,
+                React.createElement(
+                  "li",
+                  null,
+                  "2017"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "2016"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "2015"
+                )
+              )
+            )
+          ),
+          React.createElement(
+            "div",
+            { id: "newsletter-main" },
+            React.createElement(
+              "div",
+              null,
+              React.createElement(
+                "form",
+                null,
+                React.createElement(
+                  "h1",
+                  null,
+                  "Get Newsletter"
+                ),
+                React.createElement("input", { type: "text" }),
+                React.createElement(
+                  "button",
+                  null,
+                  "sign up"
+                )
+              )
+            )
           ),
           React.createElement(
             "footer",

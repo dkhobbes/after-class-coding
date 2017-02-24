@@ -47,18 +47,30 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
           <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
         </section>
+        <div id="read-more-main">
+          <h1>Read more coming soon ...</h1>
+        </div>
 
         <section>
-          <div id="intro-main">
-
+          <div id="archive-main">
+            <h1><ReactRouter.Link to={'/Archive'}>Archive</ReactRouter.Link></h1>
+            <ul>
+              <li>2017</li>
+              <li>2016</li>
+              <li>2015</li>
+            </ul>
           </div>
         </section>
 
-        <section>
-          <div id="intro-main">
-          
+        <div id="newsletter-main">
+          <div>
+          <form>
+            <h1>Get Newsletter</h1>
+            <input type="text" />
+            <button>sign up</button>
+          </form>
           </div>
-        </section>
+        </div>
 
         <footer>
           <p>© copyright 2017 BOOK BLOG</p>

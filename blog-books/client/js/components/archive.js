@@ -12,6 +12,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ul>
             <li>About</li>
             <li>My books</li>
+            <li><ReactRouter.Link to={'/'}>Home</ReactRouter.Link></li>
           </ul>
         </div>
         <div id="main-nav">
@@ -25,14 +26,30 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
           </div>
         </header>
-        <section>
-          <div className="tabs"><ReactRouter.Link to={'/PostOne'}>Post One</ReactRouter.Link></div>
-          <div className="tabs"><ReactRouter.Link to={'/PostTwo'}>Post Two</ReactRouter.Link></div>
-          <div className="tabs"><ReactRouter.Link to={'/PostThree'}>Post Three</ReactRouter.Link></div>
-          <div className="tabs"><ReactRouter.Link to={'/PostFour'}>Post Four</ReactRouter.Link></div>
-          <div className="tabs"><ReactRouter.Link to={'/PostFive'}>Post Five</ReactRouter.Link></div>
-        </section>
 
+        <section>
+          <div className="tabs"><ReactRouter.Link to={'/PostOne'}>one</ReactRouter.Link></div>
+          <div className="tabs"><ReactRouter.Link to={'/PostTwo'}>two</ReactRouter.Link></div>
+        </section>
+        <section>
+          <div className="tabs"><ReactRouter.Link to={'/PostThree'}>three</ReactRouter.Link></div>
+          <div className="tabs"><ReactRouter.Link to={'/PostFour'}>four</ReactRouter.Link></div>
+        </section>
+        <section>
+          <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
+          <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
+        </section>
+        <section>
+          <div className="tabs"><ReactRouter.Link to={'/PostThree'}>three</ReactRouter.Link></div>
+          <div className="tabs"><ReactRouter.Link to={'/PostFour'}>four</ReactRouter.Link></div>
+        </section>
+        <section>
+          <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
+          <div className="tabs"><ReactRouter.Link to={'/PostFive'}>five</ReactRouter.Link></div>
+        </section>
+        <footer>
+          <p>© copyright 2017 BOOK BLOG</p>
+        </footer>
       </div>
     }
   }
