@@ -92,116 +92,168 @@ if (window.BlogTest === undefined) {
               )
             )
           ),
+          React.createElement("div", { id: "spacing" }),
           React.createElement(
             "section",
             null,
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostOne' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostOne' },
-                "one"
+                "div",
+                { className: "tabs tabs-one tabs-img-1" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "one"
+                )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostTwo' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostTwo' },
-                "two"
+                "div",
+                { className: "tabs tabs-img-2" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "two"
+                )
               )
-            )
+            ),
+            React.createElement("div", { className: "tabs-bottom tabs-one" }),
+            React.createElement("div", { className: "tabs-bottom" })
           ),
           React.createElement(
             "section",
             null,
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostThree' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostThree' },
-                "three"
+                "div",
+                { className: "tabs tabs-one tabs-img-3" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "three"
+                )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostFour' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFour' },
-                "four"
+                "div",
+                { className: "tabs tabs-img-4" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "four"
+                )
               )
-            )
+            ),
+            React.createElement("div", { className: "tabs-bottom tabs-one" }),
+            React.createElement("div", { className: "tabs-bottom" })
           ),
           React.createElement(
             "section",
             null,
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostFive' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFive' },
-                "five"
+                "div",
+                { className: "tabs tabs-one tabs-img-5" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "five"
+                )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostFive' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFive' },
-                "five"
+                "div",
+                { className: "tabs tabs-img-6" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "six"
+                )
               )
-            )
+            ),
+            React.createElement("div", { className: "tabs-bottom tabs-one" }),
+            React.createElement("div", { className: "tabs-bottom" })
           ),
           React.createElement(
             "section",
             null,
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostThree' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostThree' },
-                "three"
+                "div",
+                { className: "tabs tabs-one tabs-img-3" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "three"
+                )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostFour' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFour' },
-                "four"
+                "div",
+                { className: "tabs tabs-img-4" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "four"
+                )
               )
-            )
+            ),
+            React.createElement("div", { className: "tabs-bottom tabs-one" }),
+            React.createElement("div", { className: "tabs-bottom" })
           ),
           React.createElement(
             "section",
             null,
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostFive' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFive' },
-                "five"
+                "div",
+                { className: "tabs tabs-one tabs-img-5" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "five"
+                )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs" },
+              ReactRouter.Link,
+              { to: '/PostFive' },
               React.createElement(
-                ReactRouter.Link,
-                { to: '/PostFive' },
-                "five"
+                "div",
+                { className: "tabs tabs-img-6" },
+                React.createElement(
+                  "div",
+                  { className: "blog-pic-title" },
+                  "six"
+                )
               )
-            )
+            ),
+            React.createElement("div", { className: "tabs-bottom tabs-one" }),
+            React.createElement("div", { className: "tabs-bottom" })
           ),
+          React.createElement("div", { id: "spacing" }),
           React.createElement(
             "footer",
             null,
@@ -954,7 +1006,7 @@ if (window.BlogTest === undefined) {
               { to: '/PostOne' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-one tabs-img" },
+                { className: "tabs tabs-one tabs-img-1" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },
@@ -967,7 +1019,7 @@ if (window.BlogTest === undefined) {
               { to: '/PostTwo' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-img" },
+                { className: "tabs tabs-img-2" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },
@@ -986,7 +1038,7 @@ if (window.BlogTest === undefined) {
               { to: '/PostThree' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-one tabs-img" },
+                { className: "tabs tabs-one tabs-img-3" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },
@@ -999,7 +1051,7 @@ if (window.BlogTest === undefined) {
               { to: '/PostFour' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-img" },
+                { className: "tabs tabs-img-4" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },
@@ -1018,7 +1070,7 @@ if (window.BlogTest === undefined) {
               { to: '/PostFive' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-one tabs-img" },
+                { className: "tabs tabs-one tabs-img-5" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },
@@ -1031,7 +1083,7 @@ if (window.BlogTest === undefined) {
               { to: '/PostFive' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-img" },
+                { className: "tabs tabs-img-6" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },

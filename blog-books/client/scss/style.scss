@@ -1,9 +1,11 @@
 @import 'reset';
 
+
+
 #eyebrow-nav {
   height: 40px;
   max-width: 100%;
-  background-color: rgba(130, 69, 66, 1.0);
+  background-color: rgba(142, 40, 0, 1.0);
   padding-right: 15px;
 }
 
@@ -11,7 +13,7 @@
   padding: 30px;
   height: 30px;
   max-width: 100%;
-  background-color: rgba(240, 222, 203, 1.0);
+  background-color: rgba(249, 237, 223, 1.0);
 }
 
 #logo {
@@ -58,7 +60,7 @@ border: 1px solid black;
 }
 
 #intro-main{
-  background-color: rgba(240, 222, 203, 1.0);
+  background-color: rgba(249, 237, 223, 1.0);
   border-radius: 25px;
   width: 78%;
   margin: 0 auto;
@@ -119,6 +121,36 @@ section div {
   background-size: cover;
 }
 
+.tabs-img-1 {
+  background-image: url('images/blog-photo-1.jpg');
+  background-size: cover;
+}
+
+.tabs-img-2 {
+  background-image: url('images/blog-photo-2.jpg');
+  background-size: cover;
+}
+
+.tabs-img-3 {
+  background-image: url('images/blog-photo-3.jpg');
+  background-size: cover;
+}
+
+.tabs-img-4 {
+  background-image: url('images/blog-photo-7.jpg');
+  background-size: cover;
+}
+
+.tabs-img-5 {
+  background-image: url('images/blog-photo-5.jpg');
+  background-size: cover;
+}
+
+.tabs-img-6 {
+  background-image: url('images/blog-photo-6.jpg');
+  background-size: cover;
+}
+
 .tabs-bottom {
   float: left;
   width: 38%;
@@ -126,7 +158,7 @@ section div {
   border: 1px solid black;
   border-radius: 0 0 25px 25px;
   margin-bottom: 25px;
-  background-color: rgba(240, 222, 203, 1.0);
+  background-color: rgba(249, 237, 223, 1.0);
 }
 
 header ul li {
@@ -150,7 +182,7 @@ footer p {
   width: 100%;
   height: 200px;
   margin-top: 25px;
-  background-color: rgba(240, 222, 203, 1.0);
+  background-color: rgba(249, 237, 223, 1.0);
 }
 
 #newsletter-main h1, input, button  {
@@ -175,7 +207,7 @@ footer p {
 }
 
 #archive-main {
-  background-color: rgba(240, 222, 203, 1.0);
+  background-color: rgba(249, 237, 223, 1.0);
   border-radius: 25px;
   width: 79%;
   height: 80px;
@@ -224,5 +256,5 @@ footer p {
   margin-left: 30px;
   padding-top: 100px;
   text-align: center;
-  color: white; 
+  color: white;
 }

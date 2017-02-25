@@ -41,12 +41,12 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
 
         <section>
           <ReactRouter.Link to={'/PostOne'}>
-            <div className="tabs tabs-one tabs-img">
+            <div className="tabs tabs-one tabs-img-1">
               <div className="blog-pic-title">one</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PostTwo'}>
-            <div className="tabs tabs-img">
+            <div className="tabs tabs-img-2">
               <div className="blog-pic-title">two</div>
             </div>
           </ReactRouter.Link>
@@ -56,12 +56,12 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
 
         <section>
           <ReactRouter.Link to={'/PostThree'}>
-            <div className="tabs tabs-one tabs-img">
+            <div className="tabs tabs-one tabs-img-3">
               <div className="blog-pic-title">three</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PostFour'}>
-            <div className="tabs tabs-img">
+            <div className="tabs tabs-img-4">
               <div className="blog-pic-title">four</div>
             </div>
           </ReactRouter.Link>
@@ -71,19 +71,19 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
 
         <section>
           <ReactRouter.Link to={'/PostFive'}>
-            <div className="tabs tabs-one tabs-img">
+            <div className="tabs tabs-one tabs-img-5">
               <div className="blog-pic-title">five</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PostFive'}>
-            <div className="tabs tabs-img">
+            <div className="tabs tabs-img-6">
               <div className="blog-pic-title">six</div>
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one"></div>
           <div className="tabs-bottom"></div>
         </section>
-        
+
         <div id="read-more-main">
           <h1>Read more coming soon ...</h1>
         </div>
