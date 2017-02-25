@@ -92,6 +92,9 @@ section {
 
 #spacing {
   height: 150px;
+  // text-align: center;
+  // font-weight: bold;
+  // font-size: 36px;
 }
 
 section div {
@@ -257,4 +260,11 @@ footer p {
   padding-top: 100px;
   text-align: center;
   color: white;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+.blog-pic-title:hover {
+  height: 45px;
+  width: 60px;
 }

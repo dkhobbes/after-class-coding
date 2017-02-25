@@ -92,7 +92,11 @@ if (window.BlogTest === undefined) {
               )
             )
           ),
-          React.createElement("div", { id: "spacing" }),
+          React.createElement(
+            "div",
+            { id: "spacing" },
+            "Archives"
+          ),
           React.createElement(
             "section",
             null,

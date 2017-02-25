@@ -26,7 +26,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
           </div>
         </header>
-        <div id="spacing"></div>
+        <div id="spacing">Archives</div>
         <section>
           <ReactRouter.Link to={'/PostOne'}>
             <div className="tabs tabs-one tabs-img-1">
