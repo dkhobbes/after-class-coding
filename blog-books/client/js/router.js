@@ -15,6 +15,7 @@ var router = <Router history={ReactRouter.hashHistory}>
       <Route path="/PostThree" component={BlogTest.BlogPostThreeComponent} />
       <Route path="/PostFour" component={BlogTest.BlogPostFourComponent} />
       <Route path="/PostFive" component={BlogTest.BlogPostFiveComponent} />
+      <Route path="/PostSix" component={BlogTest.BlogPostSixComponent} />
     </Router>;
 
 ReactDOM.render(router, mountNode);

@@ -1,6 +1,6 @@
 if (window.BlogTest === undefined) {window.BlogTest = {}; }
 (function() {
-  class BlogPostThreeComponent extends React.Component {
+  class BlogPostSixComponent extends React.Component {
     constructor() {
       super();
     }
@@ -31,7 +31,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
         <div id="home-pic-title">Book Blog</div>
       </div>
       <div className="blog-post">
-        <h1>Blog Post Three</h1>
+        <h1>Blog Post Six</h1>
         <h1>JavaScript Web Applications</h1>
         <p>Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side—not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.</p>
         <p>Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.</p>
@@ -52,5 +52,5 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
     }
   }
 
-  BlogTest.BlogPostThreeComponent = BlogPostThreeComponent;
+  BlogTest.BlogPostSixComponent = BlogPostSixComponent;
 })();

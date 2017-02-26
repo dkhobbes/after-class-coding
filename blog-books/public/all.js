@@ -179,7 +179,7 @@ if (window.BlogTest === undefined) {
             ),
             React.createElement(
               ReactRouter.Link,
-              { to: '/PostFive' },
+              { to: '/PostSix' },
               React.createElement(
                 "div",
                 { className: "tabs tabs-img-6" },
@@ -243,7 +243,7 @@ if (window.BlogTest === undefined) {
             ),
             React.createElement(
               ReactRouter.Link,
-              { to: '/PostFive' },
+              { to: '/PostSix' },
               React.createElement(
                 "div",
                 { className: "tabs tabs-img-6" },
@@ -371,12 +371,41 @@ if (window.BlogTest === undefined) {
             )
           ),
           React.createElement(
-            "section",
-            null,
+            "div",
+            { id: "home-pic" },
             React.createElement(
               "div",
+              { id: "home-pic-title" },
+              "Book Blog"
+            )
+          ),
+          React.createElement(
+            "div",
+            { className: "blog-post" },
+            React.createElement(
+              "h1",
               null,
-              "example post"
+              "Blog Post One"
+            ),
+            React.createElement(
+              "h1",
+              null,
+              "JavaScript Web Applications"
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+            ),
+            React.createElement(
+              "p",
+              { className: "blog-post-end" },
+              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
             )
           ),
           React.createElement(
@@ -492,12 +521,41 @@ if (window.BlogTest === undefined) {
             )
           ),
           React.createElement(
-            "section",
-            null,
+            "div",
+            { id: "home-pic" },
             React.createElement(
               "div",
+              { id: "home-pic-title" },
+              "Book Blog"
+            )
+          ),
+          React.createElement(
+            "div",
+            { className: "blog-post" },
+            React.createElement(
+              "h1",
               null,
-              "example post"
+              "Blog Post Two"
+            ),
+            React.createElement(
+              "h1",
+              null,
+              "JavaScript Web Applications"
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+            ),
+            React.createElement(
+              "p",
+              { className: "blog-post-end" },
+              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
             )
           ),
           React.createElement(
@@ -613,12 +671,41 @@ if (window.BlogTest === undefined) {
             )
           ),
           React.createElement(
-            "section",
-            null,
+            "div",
+            { id: "home-pic" },
             React.createElement(
               "div",
+              { id: "home-pic-title" },
+              "Book Blog"
+            )
+          ),
+          React.createElement(
+            "div",
+            { className: "blog-post" },
+            React.createElement(
+              "h1",
               null,
-              "example post"
+              "Blog Post Three"
+            ),
+            React.createElement(
+              "h1",
+              null,
+              "JavaScript Web Applications"
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+            ),
+            React.createElement(
+              "p",
+              { className: "blog-post-end" },
+              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
             )
           ),
           React.createElement(
@@ -734,12 +821,41 @@ if (window.BlogTest === undefined) {
             )
           ),
           React.createElement(
-            "section",
-            null,
+            "div",
+            { id: "home-pic" },
             React.createElement(
               "div",
+              { id: "home-pic-title" },
+              "Book Blog"
+            )
+          ),
+          React.createElement(
+            "div",
+            { className: "blog-post" },
+            React.createElement(
+              "h1",
               null,
-              "example post"
+              "Blog Post Four"
+            ),
+            React.createElement(
+              "h1",
+              null,
+              "JavaScript Web Applications"
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+            ),
+            React.createElement(
+              "p",
+              { className: "blog-post-end" },
+              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
             )
           ),
           React.createElement(
@@ -855,12 +971,41 @@ if (window.BlogTest === undefined) {
             )
           ),
           React.createElement(
-            "section",
-            null,
+            "div",
+            { id: "home-pic" },
             React.createElement(
               "div",
+              { id: "home-pic-title" },
+              "Book Blog"
+            )
+          ),
+          React.createElement(
+            "div",
+            { className: "blog-post" },
+            React.createElement(
+              "h1",
               null,
-              "example post"
+              "Blog Post Five"
+            ),
+            React.createElement(
+              "h1",
+              null,
+              "JavaScript Web Applications"
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+            ),
+            React.createElement(
+              "p",
+              { className: "blog-post-end" },
+              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
             )
           ),
           React.createElement(
@@ -880,6 +1025,156 @@ if (window.BlogTest === undefined) {
   }(React.Component);
 
   BlogTest.BlogPostFiveComponent = BlogPostFiveComponent;
+})();
+"use strict";
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+if (window.BlogTest === undefined) {
+  window.BlogTest = {};
+}
+(function () {
+  var BlogPostSixComponent = function (_React$Component) {
+    _inherits(BlogPostSixComponent, _React$Component);
+
+    function BlogPostSixComponent() {
+      _classCallCheck(this, BlogPostSixComponent);
+
+      return _possibleConstructorReturn(this, (BlogPostSixComponent.__proto__ || Object.getPrototypeOf(BlogPostSixComponent)).call(this));
+    }
+
+    _createClass(BlogPostSixComponent, [{
+      key: "render",
+      value: function render() {
+        return React.createElement(
+          "div",
+          null,
+          React.createElement(
+            "header",
+            null,
+            React.createElement(
+              "div",
+              { id: "eyebrow-nav" },
+              React.createElement(
+                "ul",
+                null,
+                React.createElement(
+                  "li",
+                  null,
+                  "About"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "My books"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/' },
+                    "Home"
+                  )
+                )
+              )
+            ),
+            React.createElement(
+              "div",
+              { id: "main-nav" },
+              React.createElement("div", { id: "logo" }),
+              React.createElement(
+                "ul",
+                null,
+                React.createElement(
+                  "li",
+                  null,
+                  "New releases"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Popular"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Categories"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Recent Posts"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Author Interviews"
+                )
+              )
+            )
+          ),
+          React.createElement(
+            "div",
+            { id: "home-pic" },
+            React.createElement(
+              "div",
+              { id: "home-pic-title" },
+              "Book Blog"
+            )
+          ),
+          React.createElement(
+            "div",
+            { className: "blog-post" },
+            React.createElement(
+              "h1",
+              null,
+              "Blog Post Six"
+            ),
+            React.createElement(
+              "h1",
+              null,
+              "JavaScript Web Applications"
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+            ),
+            React.createElement(
+              "p",
+              null,
+              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+            ),
+            React.createElement(
+              "p",
+              { className: "blog-post-end" },
+              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
+            )
+          ),
+          React.createElement(
+            "footer",
+            null,
+            React.createElement(
+              "p",
+              null,
+              "\xA9 copyright 2017 BOOK BLOG"
+            )
+          )
+        );
+      }
+    }]);
+
+    return BlogPostSixComponent;
+  }(React.Component);
+
+  BlogTest.BlogPostSixComponent = BlogPostSixComponent;
 })();
 "use strict";
 
@@ -1084,7 +1379,7 @@ if (window.BlogTest === undefined) {
             ),
             React.createElement(
               ReactRouter.Link,
-              { to: '/PostFive' },
+              { to: '/PostSix' },
               React.createElement(
                 "div",
                 { className: "tabs tabs-img-6" },
@@ -1210,7 +1505,8 @@ if (window.BlogTest === undefined) {
             React.createElement(Route, { path: "/PostTwo", component: BlogTest.BlogPostTwoComponent }),
             React.createElement(Route, { path: "/PostThree", component: BlogTest.BlogPostThreeComponent }),
             React.createElement(Route, { path: "/PostFour", component: BlogTest.BlogPostFourComponent }),
-            React.createElement(Route, { path: "/PostFive", component: BlogTest.BlogPostFiveComponent })
+            React.createElement(Route, { path: "/PostFive", component: BlogTest.BlogPostFiveComponent }),
+            React.createElement(Route, { path: "/PostSix", component: BlogTest.BlogPostSixComponent })
       );
 
       ReactDOM.render(router, mountNode);

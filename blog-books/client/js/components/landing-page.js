@@ -75,7 +75,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
               <div className="blog-pic-title">five</div>
             </div>
           </ReactRouter.Link>
-          <ReactRouter.Link to={'/PostFive'}>
+          <ReactRouter.Link to={'/PostSix'}>
             <div className="tabs tabs-img-6">
               <div className="blog-pic-title">six</div>
             </div>

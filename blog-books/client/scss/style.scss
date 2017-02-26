@@ -17,13 +17,15 @@
 }
 
 #logo {
-height: 35px;
-width: 35px;
-margin: 0px 10px 0 10px;
-border-radius: 25px;
-float: left;
-background-color: white;
-border: 1px solid black;
+  height: 35px;
+  width: 35px;
+  // margin: 0px 10px 0 10px;
+  // border-radius: 25px;
+  background-image: url('images/book-logo.jpg');
+  // background-size: cover;
+  float: left;
+  // background-color: white;
+  border: 1px solid black;
 }
 
 #main-nav ul {
@@ -253,4 +255,23 @@ footer p {
 .blog-pic-title:hover {
   height: 45px;
   width: 60px;
+}
+
+.blog-post {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.blog-post p {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.blog-post h1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.blog-post-end {
+  padding-bottom: 25px;
 }
