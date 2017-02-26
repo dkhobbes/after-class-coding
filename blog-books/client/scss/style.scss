@@ -35,7 +35,6 @@ border: 1px solid black;
   color: black;
 }
 
-
 #home-pic {
   background-image: url('images/book-blog-intro.jpg');
   background-size: cover;
@@ -60,7 +59,6 @@ border: 1px solid black;
 }
 
 #intro-main{
-  background-color: rgba(249, 237, 223, 1.0);
   border-radius: 25px;
   width: 78%;
   margin: 0 auto;
@@ -96,15 +94,6 @@ section {
   // font-weight: bold;
   // font-size: 36px;
 }
-
-section div {
-  // float: left;
-  // width: 38%;
-  // margin-left: 10%;
-  // height: 200px;
-  // background-color: lightblue;
-  // border: 1px solid black;
- }
 
 .tabs {
   float: left;
@@ -210,7 +199,6 @@ footer p {
 }
 
 #archive-main {
-  background-color: rgba(249, 237, 223, 1.0);
   border-radius: 25px;
   width: 79%;
   height: 80px;
@@ -230,9 +218,7 @@ footer p {
 }
 
 #archive-main-list {
-  // margin-left: 20px;
   padding-top: 25px;
-
 }
 
 #archive-main-list li {
