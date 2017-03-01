@@ -3,7 +3,8 @@ var words = [
  "nemo",
  "mulan",
  "woody",
- "aladdin"
+ "aladdin",
+ "buzz"
 ];
 
 var word = words[
@@ -39,4 +40,4 @@ while (remainingLetters > 0 ) {
 alert(answerArray.join(" "));
 alert("Good job! The answer was " + word);
 
-// work on changing from alert to something on the DOM 
+// work on changing from alert to something on the DOM
