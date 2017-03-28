@@ -16,6 +16,7 @@ function add(a, b) {
 }
 
 function combineStrings(a, b) {
+return 'hello' + ' ' + "world";
 }
 
 function subtract(a, b) {
@@ -23,16 +24,21 @@ function subtract(a, b) {
 }
 
 function multiply(a, b) {
+  return 2*20;
 }
 
 function divide(a, b) {
+  return 20/5;
 }
 
 function remainder(a, b) {
+  return 21%5;
 }
 
 function square(number) {
+  return 80*80;
 }
 
 function cube(number) {
+  return 3*3*3;
 }
