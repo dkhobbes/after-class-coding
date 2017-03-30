@@ -19,3 +19,12 @@
 .question input {
   padding: 6px 4px;
 }
+
+.restart {
+  border: 1px solid black;
+  background-color: lightgray;
+}
+.restart:hover {
+  background-color: gray;
+
+}
