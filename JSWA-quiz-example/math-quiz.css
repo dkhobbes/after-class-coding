@@ -9,6 +9,8 @@
 .start, .win, .fail {
   font-size: 2em;
   text-align: center;
+  margin-top: 80px;
+  background-color: yellow;
 }
 
 .question {

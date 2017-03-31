@@ -5,7 +5,7 @@ if (window.Quiz === undefined) window.Quiz = {};
   var StartController = Controller.create({
 
     render: function() {
-      this.el.html('<div class="start">click to start</div>');
+      this.el.html('<div class="start">click to start addition quiz</div>');
     },
 
     events: {

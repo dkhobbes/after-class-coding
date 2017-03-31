@@ -2,7 +2,7 @@ if (window.Quiz === undefined) window.Quiz = {};
 (function () {
   var WinController = Controller.create({
     render: function() {
-      this.el.html('<div class="win"><p>win</p><button>restart</button></a>');
+      this.el.html('<div class="win"><p>win</p><div class="restart">restart</div></a>');
 
     }
 });

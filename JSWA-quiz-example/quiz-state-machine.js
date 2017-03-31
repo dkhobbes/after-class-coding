@@ -55,6 +55,12 @@ if (window.Quiz === undefined) window.Quiz = {};
       }
     },
 
+    // restart: function() {
+    //   if () {
+    //     this.advance();
+    //   }
+    // },
+
     incorrect: function() {
       this.incorrectCount += 1;
       console.log('incorrect count', this.incorrectCount);
