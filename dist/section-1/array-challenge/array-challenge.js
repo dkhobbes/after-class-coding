@@ -9,7 +9,9 @@ function sumArrayOfNumbers(arr) {
 }
 
 function numbersOver10(arr) {
-
+  return arr >= 10;
+  
+  var nums = [1, 6, 42, 3, 17, 19, 6, 8].filter(numbersOver10);
 }
 
 function numbersOverX(arr, num) {
