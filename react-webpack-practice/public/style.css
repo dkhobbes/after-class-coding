@@ -51,21 +51,28 @@ table {
 h1 {
   font-size: 1.5em;
   margin: 1.5em 0;
-  text-align: center; }
+  margin-left: 10px; }
 
 .center {
   font-style: italic;
-  text-align: center; }
+  margin-left: 10px; }
 
-.toggle {
-  background-color: #78f0fa;
-  height: 30px;
-  width: 40px;
-  margin: 0 auto;
-  border-radius: 5px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+.start-state {
+  border: 1px solid black;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px; }
+
+.on-state {
+  border: 1px solid black;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
   margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map*/

@@ -21552,7 +21552,7 @@
 /* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -21574,24 +21574,48 @@
 	  function Header() {
 	    _classCallCheck(this, Header);
 	
-	    return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+	    var _this = _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).call(this));
+	
+	    console.log('firing constructor');
+	
+	    _this.state = {
+	      currentClass: 'start-state'
+	    };
+	    return _this;
 	  }
 	
 	  _createClass(Header, [{
-	    key: "render",
+	    key: 'toggle',
+	    value: function toggle() {
+	      if (this.state.currentClass === 'on-state') {
+	        this.setState({
+	          currentClass: 'start-state'
+	        });
+	      } else {
+	        this.setState({
+	          currentClass: 'on-state'
+	        });
+	      }
+	    }
+	  }, {
+	    key: 'render',
 	    value: function render() {
+	      var _this2 = this;
+	
 	      return _react2.default.createElement(
-	        "header",
+	        'header',
 	        null,
 	        _react2.default.createElement(
-	          "h1",
+	          'h1',
 	          null,
-	          "Welcome Header!"
+	          'Welcome Header!'
 	        ),
 	        _react2.default.createElement(
-	          "div",
-	          { className: "toggle" },
-	          "toggle"
+	          'div',
+	          { className: this.state.currentClass, onClick: function onClick() {
+	              _this2.toggle();
+	            } },
+	          'Click this to toggle in React'
 	        )
 	      );
 	    }
