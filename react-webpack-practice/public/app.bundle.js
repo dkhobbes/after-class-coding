@@ -86,8 +86,18 @@
 	        _react2.default.createElement(_header2.default, null),
 	        _react2.default.createElement(
 	          'p',
-	          null,
-	          'Paragraph is App component!'
+	          { className: 'center' },
+	          'This is a sample paragraph.'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          { className: 'center' },
+	          'This is a sample paragraph.'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          { className: 'center' },
+	          'This is a sample paragraph.'
 	        )
 	      );
 	    }
@@ -21576,7 +21586,7 @@
 	        _react2.default.createElement(
 	          'h1',
 	          null,
-	          'Header!'
+	          'Welcome Header!'
 	        )
 	      );
 	    }

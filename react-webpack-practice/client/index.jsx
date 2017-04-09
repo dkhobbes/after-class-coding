@@ -12,7 +12,9 @@ class App extends React.Component {
       <div>
         <Header />
 
-        <p>Paragraph is App component!</p>
+        <p className="center">This is a sample paragraph.</p>
+        <p className="center">This is a sample paragraph.</p>
+        <p className="center">This is a sample paragraph.</p>
       </div>
     );
   }
