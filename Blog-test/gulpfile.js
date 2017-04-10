@@ -36,7 +36,6 @@ gulp.task('babel', function() {
       .pipe(sourcemaps.write('.'))
       .pipe(gulp.dest('public'));
 });
-
 gulp.task('babel:watch', function () {
   gulp.watch('./client/js/**/*.js', ['babel']);
 });
