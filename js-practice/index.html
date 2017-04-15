@@ -6,11 +6,11 @@
   </head>
   <body>
     <h1 id="main-heading">Hello World</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-      var headingElement = document.getElementById("main-heading");
-      console.log(headingElement.innerHTML);
+
       var newHeadingText = prompt("Please provide a new heading.");
-      headingElement.innerHTML = newHeadingText;
+      $('#main-heading').text(newHeadingText);
     </script>
     <script src="script-test1.js"></script>
   </body>
