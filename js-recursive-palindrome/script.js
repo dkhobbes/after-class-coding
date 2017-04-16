@@ -5,4 +5,5 @@ function isPalindrome(string) {
   return isPalindrome( string.substr(1, string.length -2) ); //3
  }
 
- console.log(isPalindrome('anna')); // true
+ console.log("anna", isPalindrome('anna')); // true
+ console.log("lucy", isPalindrome('lucy')); // true
