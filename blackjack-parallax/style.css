@@ -1,7 +1,7 @@
 /************************************
 BACKGROUND
 ************************************/
-.bg {
+.bg{
   background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/topography.png');
   position: fixed;
   width: 100%;
@@ -15,7 +15,7 @@ BACKGROUND
 SECTION
 ************************************/
 section{
-  color: #fff;
+  color: #000;
   font-family:Raleway;
   max-width: 800px;
   margin: auto;
@@ -34,7 +34,7 @@ section{
 MY BLACK OVERLAY
 ************************************/
 .black{
-  background:rgba(0,0,0,0.5);
+  background:rgba(0,0,0,0.3);
   padding:20px 40px 20px 40px;
   border-top:1px solid rgba(255,255,255,0.2);
 }
