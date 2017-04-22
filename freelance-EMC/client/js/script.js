@@ -4,8 +4,7 @@ class AppComponent extends React.Component {
   render() {
     return <div>
       <header>
-        <div className="margin_1"></div>
-        <div className="margin_2"></div>
+        
       </header>
     </div>;
   }
