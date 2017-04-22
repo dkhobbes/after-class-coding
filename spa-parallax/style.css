@@ -10,3 +10,27 @@ BACKGROUND
   left:0;
   z-index: -1;
 }
+
+section{
+  color: #000;
+  font-family: sans-serif;
+  max-width: 960px;
+  margin: auto;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 700;
+
+  h1{
+    font-size: 2em;
+  }
+
+  h2{
+    font-size: .8em;
+  }
+}
+
+.gray{
+  background: rgba(50,50,50,0.2);
+  padding: 30px 60px 30px;
+  border-top:1px solid rgba(255,255,255,0.2);
+}
