@@ -5,7 +5,7 @@ $(window).scroll(function(e){
 //PARALLAX FUNCTION
 function parallax(){
   var scrolled = $(window).scrollTop();
-  $('.bg').css('top',-(scrolled*0.3)+'px');
+  $('.bg').css('top',-(scrolled*0.1)+'px');
 }
 
 //NOT THE MOST EFFICIENT PARALLAX, BUT SIMPLE
