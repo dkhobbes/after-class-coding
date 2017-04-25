@@ -30,7 +30,8 @@ section{
 }
 
 .gray{
-  background: rgba(50,50,50,0.6);
+  background: rgba(50,50,50,0.3);
   padding: 30px 60px 30px;
   border-top:1px solid rgba(255,255,255,0.4);
+  border-radius: 10px;
 }
