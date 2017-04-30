@@ -10,3 +10,7 @@
   margin: auto;  /* Magic! */
   background-color: yellow;
 }
+
+.title {
+  background-color: red;
+}
