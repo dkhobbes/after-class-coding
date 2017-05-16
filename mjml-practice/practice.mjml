@@ -1,6 +1,6 @@
 <mj section>
-  <mj column>Welcome to the show
-  <mj column>
-  <mj column>It should be good
-  <mj column>
+  <mj column align="left">Welcome to the show
+  </mj column>
+  <mj column align="right">It should be good
+  </mj column>
 </mj section>
