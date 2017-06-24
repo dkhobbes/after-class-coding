@@ -1,0 +1,17 @@
+.left-col {
+  height: 400px;
+  width: 15%;
+  background-color: #4CAF50;
+  margin-top: 15px;
+  border-radius: 15px 15px 0 0;
+}
+  .left-col h1, .left-col p {
+    text-align: center;
+    padding: 10px;
+  }
+
+.right-col {
+  float: left;
+  width: 84%;
+  background: lightgray;
+}
