@@ -57,12 +57,18 @@ a {
 }
 
 .container {
-
+ width: 100%;
 }
 
 .landing-pic {
-  background-image: url('mounatin-unsplashed.jpg');
+  background-image: url('images/mountain-unsplashed.jpg');
   background-size: cover;
   height: 780px;
   width: 100%;
+  z-index: -1;
+}
+
+.intro-text {
+  text-align: left;
+  margin: 10px 20px 10px;
 }
