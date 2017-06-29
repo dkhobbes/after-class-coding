@@ -43,15 +43,26 @@
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-.container {
+.nav-container {
   background-color: rgba(192, 192, 192, 1.0);
 }
 
-.container a:hover, .dropdown:hover .dropbtn {
+.nav-container a:hover, .dropdown:hover .dropbtn {
     /*background-color: red;*/
 }
 
 a {
   text-decoration: none;
   font-family: sans-serif;
+}
+
+.container {
+
+}
+
+.landing-pic {
+  background-image: url('mounatin-unsplashed.jpg');
+  background-size: cover;
+  height: 780px;
+  width: 100%;
 }
