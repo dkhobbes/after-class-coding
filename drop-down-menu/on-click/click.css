@@ -5,6 +5,7 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+      background-color: rgba(192, 50, 100, 1.0);
 }
 
 /* Dropdown button on hover & focus */
@@ -44,7 +45,9 @@
 .show {display:block;}
 
 .nav-container {
-  background-color: rgba(192, 192, 192, 1.0);
+  background-color: rgba(192, 50, 100, 1.0);
+  width: 35%;
+  border-radius: 0 0 10px 0;
 }
 
 .nav-container a:hover, .dropdown:hover .dropbtn {
