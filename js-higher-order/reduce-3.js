@@ -11,7 +11,7 @@ var friends = [{
 }, {
   name: 'Alice',
   books: ['The Lord of the Rings', 'The Shining'],
-  age: 18
+  age: 18git
 }];
 
 // allbooks - list which will contain all friends' books +
@@ -19,9 +19,3 @@ var friends = [{
 var allbooks = friends.reduce(function(prev, curr) {
   return [...prev, ...curr.books];
 }, ['Alphabet']);
-
-// allbooks = [
-//   'Alphabet', 'Bible', 'Harry Potter', 'War and peace',
-//   'Romeo and Juliet', 'The Lord of the Rings',
-//   'The Shining'
-// ]
