@@ -5,19 +5,33 @@
   margin: 10px;
 }
 
+.parent-2 {
+  display: flex;
+  height: 300px; /* Or whatever */
+  background-color:  #e6e6e6;
+  margin: 10px;
+}
+
 .parent *, .parent-2 * {
   width: 100px;  /* Or whatever */
   height: 100px; /* Or whatever */
   margin: auto;  /* Magic! */
 }
 
-
 .child {
   background-color: #3385ff;
 }
 
+.childTwo {
+  background-color: #4d94ff;
+}
+
 .childThree {
   background-color: #3399ff;
+}
+
+.childFour {
+  background-color: #b8c1c6;
 }
 
 .childFive {
@@ -28,10 +42,25 @@
   background-color: #e8e8e8;
 }
 
-.childFour {
-  background-color: #b8c1c6;
+.child-1 {
+  background-color: rgba(252, 255, 245, 1.0);
 }
 
-.childTwo {
-  background-color: #4d94ff;
+.child-2 {
+  background-color: rgba(209, 219, 189, 1.0);
 }
+
+.child-3 {
+  background-color: rgba(145, 170, 157, 1.0);
+}
+
+.child-4 {
+  background-color: rgba(62, 96, 111, 1.0);
+}
+
+.child-5 {
+  background-color: rgba(25, 52, 65, 1.0);
+}
+
+/*
+https://color.adobe.com/Lite-Sky-Blue-color-theme-9525308/?showPublished=true*/
