@@ -1,23 +1,50 @@
 .parent {
   display: flex;
   height: 300px; /* Or whatever */
-  background-color: blue;
+  background-color: #0066ff;
 }
 
 .child {
   width: 100px;  /* Or whatever */
   height: 100px; /* Or whatever */
   margin: auto;  /* Magic! */
-  background-color: yellow;
+  background-color: #3385ff;
+}
+
+.childThree {
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+  background-color: #3399ff;
+}
+
+.childFive {
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+  background-color: #d5dadd;
+}
+
+.childSix {
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+  background-color: #e8e8e8;
+}
+
+.childFour {
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+  background-color: #b8c1c6;
 }
 
 .childTwo {
-  width: 200px;  /* Or whatever */
+  width: 100px;  /* Or whatever */
   height: 100px; /* Or whatever */
   margin: auto;  /* Magic! */
-  background-color: yellow;
+  background-color: #4d94ff;
 }
-
 
 .title {
   background-color: red;
