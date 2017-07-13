@@ -2,50 +2,36 @@
   display: flex;
   height: 300px; /* Or whatever */
   background-color: #0066ff;
+  margin: 10px;
 }
 
-.child {
+.parent *, .parent-2 * {
   width: 100px;  /* Or whatever */
   height: 100px; /* Or whatever */
   margin: auto;  /* Magic! */
+}
+
+
+.child {
   background-color: #3385ff;
 }
 
 .childThree {
-  width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
-  margin: auto;  /* Magic! */
   background-color: #3399ff;
 }
 
 .childFive {
-  width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
-  margin: auto;  /* Magic! */
   background-color: #d5dadd;
 }
 
 .childSix {
-  width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
-  margin: auto;  /* Magic! */
   background-color: #e8e8e8;
 }
 
 .childFour {
-  width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
-  margin: auto;  /* Magic! */
   background-color: #b8c1c6;
 }
 
 .childTwo {
-  width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
-  margin: auto;  /* Magic! */
   background-color: #4d94ff;
-}
-
-.title {
-  background-color: red;
 }
