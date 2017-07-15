@@ -25,6 +25,20 @@
   margin: auto;  /* Magic! */
 }
 
+@media only screen and (max-width: 700px) {
+  .parent *, .parent-2 *, .parent-3 * {
+    width: 50px;  /* Or whatever */
+    height: 50px; /* Or whatever */
+    margin: auto;  /* Magic! */
+  }
+
+  .parent, .parent-2, .parent-3 {
+    display: flex;
+    height: 100px; /* Or whatever */
+    margin: 5px;
+  }
+}
+
 .childOne {
   background-color: #3385ff;
 }
