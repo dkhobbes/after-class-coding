@@ -35,7 +35,6 @@
 
 .wrapper * {
   text-align: center;
-  width: 960px;
 }
 
 @media all and (max-width: 800px) {
