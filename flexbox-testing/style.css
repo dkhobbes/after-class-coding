@@ -26,6 +26,13 @@
   flex-wrap: wrap;
 }
 
+footer {
+  width: 99vw;
+  height: 99vh;
+  display: flex;
+  background-size: cover;
+  background-color: lightgreen;
+}
 .center-content {
   width: 400px;
   display: flex;
