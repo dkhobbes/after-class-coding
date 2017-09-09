@@ -27,8 +27,8 @@
 }
 
 footer {
-  width: 99vw;
-  height: 99vh;
+  width: 98vw;
+  height: 300px;
   display: flex;
   background-size: cover;
   background-color: lightgreen;
