@@ -33,6 +33,17 @@ footer {
   background-size: cover;
   background-color: lightgreen;
 }
+
+footer ul li {
+  color: white;
+  display: inline-block;
+  padding-right: 10px;
+
+  &:last-of-type {
+    padding-right: 0px;
+  }
+}
+
 .center-content {
   width: 400px;
   display: flex;
