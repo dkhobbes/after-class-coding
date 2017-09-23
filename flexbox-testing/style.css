@@ -24,11 +24,12 @@
   background-color: lightsalmon;
   width: 66%;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
 footer {
   width: 98vw;
-  height: 300px;
+  height: 150px;
   display: flex;
   background-size: cover;
   background-color: lightgreen;
