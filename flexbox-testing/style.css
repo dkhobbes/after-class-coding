@@ -19,6 +19,8 @@
   background-color: #369;
   width: 33%;
   align-items: center;
+  padding: 20px;
+
   justify-content: center;
 }
 
@@ -32,14 +34,12 @@
 }
 
 footer {
-  width: 98vw;
   height: 150px;
   display: flex;
   background-size: cover;
   background-color: lightgreen;
   align-items: center;
   justify-content: center;
-  display: flex;
 }
 
 footer ul li {
