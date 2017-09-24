@@ -8,11 +8,19 @@
   display: flex;
 }
 
-.intro, .second-intro {
+.intro, .second-intro, .text-intro {
   width: 99vw;
   height: 99vh;
   display: flex;
   background-size: cover;
+}
+
+.s0 {
+  width: 100%;
+  align-items: center;
+  background-color: #e6e7e8;
+  justify-content: center;
+  padding: 20px;
 }
 
 .s1, .s4 {
