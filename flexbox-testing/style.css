@@ -48,8 +48,7 @@ footer {
   display: flex;
   background-size: cover;
   background-color: lightgreen;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
 }
 
 footer ul li {
