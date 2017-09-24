@@ -8,14 +8,14 @@
   display: flex;
 }
 
-.intro {
+.intro, .second-intro {
   width: 99vw;
   height: 99vh;
   display: flex;
   background-size: cover;
 }
 
-.s1 {
+.s1, .s4 {
   background-color: #369;
   width: 33%;
   align-items: center;
@@ -24,7 +24,7 @@
   justify-content: center;
 }
 
-.s2 {
+.s2, .s3 {
   background-color: lightsalmon;
   width: 66%;
   flex-wrap: wrap;
@@ -32,6 +32,8 @@
   align-items: center;
   justify-content: center;
 }
+
+
 
 footer {
   height: 150px;
