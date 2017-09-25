@@ -1,7 +1,7 @@
 const didScroll;
 const lastScrollTop = 0;
 const delta = 5;
-const navBarHeiht = $('header').outerHeight();
+const navBarHeiht = $('open-nav-menu').outerHeight();
 
 
 $(window).scroll(function(event){

@@ -4,13 +4,13 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 99vh;
+  height: 100vh;
   display: flex;
 }
 
 .intro, .second-intro, .text-intro {
-  width: 99vw;
-  height: 99vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   background-size: cover;
 }
