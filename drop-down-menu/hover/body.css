@@ -1,11 +1,18 @@
 .left-col {
-  height: 400px;
-  width: 15%;
   background-color: #4CAF50;
-  margin-top: 15px;
   border-radius: 15px 15px 0 0;
+  box-shadow: 1px 3px 5px #888888;
+  height: 400px;
+  margin-top: 15px;
+  width: 100%;
 }
   .left-col h1, .left-col p {
-    text-align: center;
     padding: 10px;
+    text-align: center;
   }
+
+.body-list {
+  color: white;
+  display: block;
+  text-align: center;
+}
