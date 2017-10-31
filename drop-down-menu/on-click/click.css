@@ -82,6 +82,12 @@ a {
   clear: both;
   margin: 25px 0;
 }
+
+.tabs-center {
+  margin: 0 auto;
+  width: 70%;
+}
+
 .tab {
   float: left;
 }
