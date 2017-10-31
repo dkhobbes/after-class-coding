@@ -81,6 +81,7 @@ a {
   min-height: 200px; /* This part sucks */
   clear: both;
   margin: 25px 0;
+  box-shadow: 0 4px 3px -3px #000000;
 }
 
 .tabs-center {
@@ -119,4 +120,8 @@ a {
 }
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
+}
+
+.bump-down {
+  margin-bottom: 50px;
 }
