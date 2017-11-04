@@ -6,10 +6,13 @@
   margin-top: 15px;
   width: 100%;
 }
-  .left-col h1, .left-col p {
-    padding: 10px;
-    text-align: center;
-  }
+
+.left-col h1, .left-col p {
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 0 0 5px;
+  text-align: center;
+}
 
 .body-list {
   color: white;
