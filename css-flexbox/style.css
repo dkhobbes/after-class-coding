@@ -39,6 +39,12 @@
   }
 }
 
+@media only screen and (max-width: 420px) {
+  .parent, .parent-2, .parent-3 {
+    display: inline-block;
+  }
+}
+
 .childOne {
   background-color: #3385ff;
 }
