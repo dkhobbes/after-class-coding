@@ -125,3 +125,19 @@ a {
 .bump-down {
   margin-bottom: 50px;
 }
+
+.tag-wrapper {
+  position: relative;
+}
+
+.tag {
+  position: absolute;
+  top: -50px;
+  right: 20px;
+  width: 200px;
+  height: 100px;
+  background-color: rgba(192, 50, 100, 1.0);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
