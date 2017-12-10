@@ -141,3 +141,11 @@ a {
   text-align: center;
   vertical-align: middle;
 }
+
+.flexgrid {
+margin: 0 auto;
+padding: 0;
+display: -webkit-flex;
+display: flex;
+flex-wrap: wrap;
+}
