@@ -49,9 +49,9 @@ img {
 }
 
 img:hover {
-  filter: alpha(opacity=9000);
-  opacity: 0.90;
-  filter: alpha(opacity=90);
+  filter: alpha(opacity=7000);
+  opacity: 0.70;
+  filter: alpha(opacity=70);
 }
 
 figure {
@@ -84,10 +84,9 @@ main:after {
 main {
   position: relative;
   width: 1200px;
-  max-width: 90%;
+  max-width: 85%;
   margin: 0 auto;
 }
-
 
 /*===
 MAGIC (Auto adjust + Equal Height) === */
@@ -98,6 +97,7 @@ display: -webkit-flex;
 display: flex;
 flex-wrap: wrap;
 }
+
 .flexgrid li {
 position: relative;
 list-style: none;
@@ -105,7 +105,7 @@ display: -webkit-flex;
 display: flex;
 margin: 0;
 flex: auto;
-width: 100%;  /* <-- more control */
+width: 100%;
 }
 
 .flexgrid li>a {
@@ -190,9 +190,7 @@ transform: translateY(-2px);
   border-radius: 50%;
 }
 
-
 /* Ribbon --- */
-
 .ribbon {
   position: absolute;
   top: 0;
@@ -221,7 +219,6 @@ transform: translateY(-2px);
 }
 
 /*=== Colors === */
-
 .flexgrid.columns-news li {
   background: #fff;
   border: 1px solid #eee;
