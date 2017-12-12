@@ -112,71 +112,69 @@ width: 100%;
 position: relative;
 padding: 2.4rem;
 width: 100%;
-/*making paragraphs and linked block*/
 -webkit-flex-direction: column;
 flex-direction: column;
-
 }
 
 @media (min-width:768px){
- .flexgrid li {width: 33.333%;
- }
+  .flexgrid li {width: 33.333%;
+  }
 }
 .flexgrid li h2,.flexgrid li h3{margin: 0;}
 
 /*=== News/Recommended === */
 .flexgrid.columns-news li {
     margin-bottom: 4.8rem;
-
 }
 .flexgrid.columns-news li a {
   padding: 0;
 }
 
 .flexgrid.columns-news li figcaption {
-position: relative;
-z-index: 9999;
+  position: relative;
+  z-index: 9999;
 }
 
 .flexgrid.columns-news li p{
-margin: -3.6rem 0 0;
-padding: 0 1.2rem;
-font-size: .7em;
-text-transform: uppercase;
+  margin: -3.6rem 0 0;
+  padding: 0 1.2rem;
+  font-size: .7em;
+  text-transform: uppercase;
 }
 
 .flexgrid.columns-news li h2{
-padding: 1.2rem;
-font-size: 1.6rem;
-line-height: 2.4rem;
-font-weight: 400;
-
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
 }
 .columns-news li:hover {
-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
--webkit-transform: translateY(-2px);
--moz-transform: translateY(-2px);
--o-transform: translateY(-2px);
--ms-transform: translateY(-2px);
-transform: translateY(-2px);
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 @media (min-width:568px){
-.flexgrid.columns-news {
-  margin: 0 -2%;
+  .flexgrid.columns-news {
+    margin: 0 -2%;
+  }
+  .flexgrid.columns-news li {
+    margin-right:2%;margin-left: 2%;
+    width: 46%;
+   }
 }
-.flexgrid.columns-news li {
-  margin-right:2%;margin-left: 2%;
-  width: 46%;
- }
-}
+
 @media (min-width:1024px){
-.flexgrid.columns-news li {
-  width: 21%;
- }
+  .flexgrid.columns-news li {
+    width: 21%;
+  }
 }
 /* --- Favorite/Save (heart, star...) --- */
-
-.ribbon.icon{font-size:2.4rem; }
+.ribbon.icon{
+  font-size:2.4rem;
+}
 
 /* --- Number: most popular --- */
 .grid-number {
