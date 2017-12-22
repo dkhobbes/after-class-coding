@@ -1,7 +1,7 @@
 (function () {
   var counter = 0,
 
-    $items = document.querySelectorAll('.slideshow-figure'),
+    $items = document.querySelectorAll('.slideshow figure'),
     numItems = $items.length;
 
     var showCurrent = function() {
@@ -23,5 +23,5 @@
       counter--;
       showCurrent();
     }, false);
-    
+
 })();
