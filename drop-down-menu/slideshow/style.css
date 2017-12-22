@@ -17,21 +17,6 @@ figure {
   transition: 1s opacity;
 }
 
-figcaption {
-  background: rgba(0,0,0, .25);
-  border-radius: 2px;
-  bottom: .75em;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: .8em;
-  padding: .25em;
-  position: absolute;
-  right: .35em;
-}
-
-figcaption a{
-  color: #fff;
-}
 figure.show{
   opacity: 1;
   position: static;
