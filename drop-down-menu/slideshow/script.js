@@ -13,4 +13,15 @@
 
       $items[itemShown].classList.add('show');
     };
+
+    document.querySelector('.next').addEventListener('click', function() {
+      counter++;
+      showCurrent();
+    }, false);
+
+    document.querySelector('.prev').addEventListener('click', function() {
+      counter--;
+      showCurrent();
+    }, false);
+    
 })();
