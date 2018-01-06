@@ -1,15 +1,15 @@
 .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
     background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    overflow: hidden;
 }
 
 .tab button {
     background-color: inherit;
-    display: inline-block;
     border: none;
-    outline: none;
     cursor: pointer;
+    display: inline-block;
+    outline: none;
     padding: 14px 16px;
     transition: 0.3s;
 }
@@ -23,11 +23,11 @@
 }
 
 .tabcontent {
-    display: none;
-    padding: 6px 12px;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
     border: 1px solid #ccc;
     border-top: none;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    display: none;
+    padding: 6px 12px;
 }
 
 @keyframes fadeEffect {
