@@ -36,3 +36,7 @@
     background-color: white;
     display: none;
 }
+
+.a-adjust {
+    width: calc(100% - 36px);
+}
