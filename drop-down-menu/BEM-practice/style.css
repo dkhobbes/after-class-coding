@@ -1,0 +1,36 @@
+.accordion {
+  background: #f4f4f4;
+  font-family: "Raleway", sans-serif;
+  max-width: 600px;
+  margin: 4rem auto;
+  width: 90%;
+}
+.accordion__title {
+  background: #5B5F97;
+  color: white;
+  cursor: pointer;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  transition: .3s ease;
+}
+.accordion__title:hover {
+  background: #484b77;
+}
+.accordion__copy {
+  color: darkgray;
+  display: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+}
+.accordion__copy--open {
+  display: block;
+}
+
+
+body {
+  background: #222;
+}
