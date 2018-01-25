@@ -2,8 +2,8 @@
   background: #f4f4f4;
   font-family: "Raleway", sans-serif;
   max-width: 700px;
-  margin: 4rem auto;
-  width: 90%;
+  margin: 3rem auto;
+  width: 85%;
 }
 .accordion__title {
   background: #5B5F97;
@@ -29,7 +29,6 @@
 .accordion__copy--open {
   display: block;
 }
-
 
 body {
   background: #222;
