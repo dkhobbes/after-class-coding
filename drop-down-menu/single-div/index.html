@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    body {
+ background: linear-gradient(45deg, #000, #000 50%, #fff 50%, #fff);
+background-size: 800% 800%;
+animation: bg 16s ease infinite;
+}
+
+.framer {
+--fc01: #AEF;
+--fc02: #0AF;
+--fc03: #04F;
+--size: 100px;
+
+position: relative;
+width: var(--size);
+height: var(--size);
+
+margin: calc(50vh - var(--size) * 1.5);
+
+background: linear-gradient(to bottom left, var(--fc01) 0%, var(--fc01) 50%, transparent 50%);
+box-shadow:
+  var(--size) 0px 0px 0px var(--fc01),
+  0px var(--size) 0px 0px var(--fc02);
+
+animation: pulse 2s ease infinite;
+
+&::before,
+&::after {
+  content: "";
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+}
+
+&::before {
+  left: var(--size);
+  top: var(--size);
+  background: linear-gradient(to top right, var(--fc02) 0%, var(--fc02) 50%, transparent 50%);
+}
+
+&::after {
+  top: calc(var(--size) * 2);
+  left: 0px;
+  background: linear-gradient(to bottom left, var(--fc03) 0%, var(--fc03) 50%, transparent 50%);
+
+  transform: scale(1, 1);
+  transition: transform .25s ease;
+}
+}
+
+@keyframes bg {
+0% {
+  background-position: 0% 50%;
+}
+
+50% {
+  background-position: 100% 50%;
+}
+
+100% {
+  background-position: 0% 50%;
+}
+}
+
+@keyframes pulse {
+0% {
+  transform: translate(calc(var(--size) / 2 * -1), 0) scale3d(1,1,1);
+}
+
+50% {
+  transform: translate(calc(var(--size) / 2 * -1), 0) scale3d(1.05,1.05,1.05);
+}
+
+100% {
+  transform: translate(calc(var(--size) / 2 * -1), 0) scale3d(1,1,1);
+}
+}
+    </style>
+  </head>
+  <body>
+    <div class="framer">
+
+    </div>
+
+  </body>
+</html>
